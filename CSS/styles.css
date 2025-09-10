@@ -1,0 +1,93 @@
+/* #494479 */
+/* #a7a5d4 */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:active {
+  color: white;
+}
+a:hover {
+  color: yellow;
+}
+body.body_content {
+  background-color: #a7a5d4;
+  min-width: 1080px;
+  max-width: 1224px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  background-color: #494479;
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  border-radius: 10px;
+}
+/* h1 attributes */
+h1 {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #494479;
+  color: white;
+  border-radius: 10px;
+}
+/* ul attributes */
+ul {
+  text-align: center;
+  color: white;
+  background-color: #494479;
+  font-size: 24px;
+  display: inline-block;
+  border-radius: 10px;
+}
+/* Contains attributes for the footer */
+footer {
+  display: inline-block;
+  padding: 6px 16px;
+  background-color: #494479;
+  height: auto; /* let height adjust to text */
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px auto 0 auto;
+  font-size: 20px;
+}
+/* Contains attributes for main */
+main.main_content {
+  padding: 16px;
+}
+
+/* link attributes in the nav area */
+nav {
+  text-align: center;
+}
+nav a:link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #494479;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Atkinson Hyperlegible Mono";
+  margin: 5px;
+  border-radius: 6px;
+}
+/* list attributes in the nav area */
+nav li {
+  display: inline-block;
+}
