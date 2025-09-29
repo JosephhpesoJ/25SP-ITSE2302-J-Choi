@@ -22,7 +22,6 @@ var num5 = sentence2.slice(index2, index2 + 1);
 var index100 = sentence2.indexOf("100");
 var num6 = sentence2.slice(index100, index100 + 3);
 
-
 // Extract 10 and 0 from 100
 var num7 = num6.substring(0, 2);
 var num8 = num6.substring(2, 3);
@@ -48,7 +47,10 @@ var cityStart = sentence2.indexOf("San Antonio");
 var city = sentence2.substring(cityStart, cityStart + "San Antonio".length);
 
 // Change sentence3 to include city
-sentence3 = "This summer they plan on traveling to " + city + " to visit as many family members as possible.";
+sentence3 =
+  "This summer they plan on traveling to " +
+  city +
+  " to visit as many family members as possible.";
 console.log(sentence3);
 
 // Use numbers 1 and 10 for while loop
