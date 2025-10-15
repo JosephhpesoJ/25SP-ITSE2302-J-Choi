@@ -14,7 +14,7 @@ let dayNames = [
 
 // Name and year
 let firstName = "Joseph";
-let birthYear = 2009;
+let birthYear = 2007;
 
 // Add one topic
 siteTopics.push("User Experience");
